@@ -1,0 +1,140 @@
+name: popcorn
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  url_launcher: ^6.0.9
+
+
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.6
+  image_picker: ^0.8.6
+  image: ^3.0.1  # Image processing library
+  image_cropper: ^1.4.1  # Optional: for cropping images
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^3.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/500 days of summer.jpg
+    - assets/images/about tme.jpg
+    - assets/images/absol.jpg
+    - assets/images/arcanine.jpg
+    - assets/images/before sunrs.jpg
+    - assets/images/Benhur.jpg
+    - assets/images/brian.jpg
+    - assets/images/crazy stupid love.jpg
+    - assets/images/deoxys.jpg
+    - assets/images/ditto.jpg
+    - assets/images/edcel.jpg
+    - assets/images/eevee.jpg
+    - assets/images/esotsp.jpg
+    - assets/images/Fallen angels.jpg
+    - assets/images/flipped.jpg
+    - assets/images/forrest gump.jpg
+    - assets/images/Friday the 13th.jpg
+    - assets/images/gelo.jpg
+    - assets/images/giratina.jpg
+    - assets/images/greninja.jpg
+    - assets/images/having.jpg
+    - assets/images/how to lose a guy in 10 days.jpg
+    - assets/images/ikaw.jpg
+    - assets/images/in the mood for love.jpg
+    - assets/images/in the moood for love.jpg
+    - assets/images/Instagram.webp
+    - assets/images/JAWS.jpg
+    - assets/images/jolteon.jpg
+    - assets/images/ken.jpg
+    - assets/images/lalaland.jpg
+    - assets/images/memento.jpg
+    - assets/images/Perks of being a wallflowe.jpg
+    - assets/images/pikachu.jpg
+    - assets/images/pusongbato.jpg
+    - assets/images/Raiders of the lost ark.jpg
+    - assets/images/saving private ryan.jpg
+    - assets/images/schindler_s list.jpg
+    - assets/images/SCOTT PILGIRM.jpg
+    - assets/images/seajan.jpg
+    - assets/images/Star Wars the force awakens.jpg
+    - assets/images/submarine.jpg
+    - assets/images/tenet.jpg
+    - assets/images/tepig.jpg
+    - assets/images/TexasChainsawBeginning.jpg
+    - assets/images/THC2.jpg
+    - assets/images/the dark knight.jpg
+    - assets/images/the girl next dooor.jpg
+    - assets/images/the godfather.jpg
+    - assets/images/the notebook.jpg
+    - assets/images/tssr.jpg
+    - assets/images/titanic.jpg
+    - assets/images/TSHBNT.jpg
+    - assets/images/Twister.jpg
+    - assets/images/madmax.jpg
+    - assets/images/tgbh.jpg
+    - assets/images/inception.jpg
+    - assets/images/pulpfiction.jpg
+    - assets/images/spiritedaway.jpg
+    - assets/images/tsotl.jpg
+    - assets/images/fc.jpg
+    - assets/images/tus.jpg
+    - assets/images/thematrix.jpg
+    - assets/images/glad.jpg
+    - assets/images/dad.jpg
+    - assets/images/anchorman.jpg
+    - assets/images/stepbrothers.jpg
+    - assets/images/hangover.jpg
+    - assets/images/superbad.jpg
+    - assets/images/shutterisland.jpg
+    - assets/images/se7en.jpg
+    - assets/images/gonegirl.jpg
+    - assets/images/logo.png
+
+
+  fonts:
+    - family: Oswald
+      fonts:
+        - asset: assets/fonts/Oswald-VariableFont_wght.ttf
